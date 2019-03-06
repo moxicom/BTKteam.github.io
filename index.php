@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>BTKteam</title>
+  <link rel="stylesheet" href="style.css">
+  <script
+            src="http://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="home">
+    <div class="image"></div>
+    <div class="container">
+      <header>
+          <h1></h1>
+          <!-- <nav>
+             <ul>
+              <li><a href="products.html">Кофе в зернах</a></li>
+              <li><a href="coffees.html">Кофейни "Бордрофф"</a></li>
+              <li><a href="courses.html">Курсы бориста</a></li>
+              <li><a href="#">Арендодателям</a></li>
+              <li><a href="#">соискателям</a></li>
+              <li><a href="#">Франшиза</a></li>
+            </ul>
+
+
+
+          </nav> -->
+          <nav>
+                <ul class="topmenu">
+                  <li><a href="index.html">главная</a></li>
+                  <li><a href="#">сообщение</a></li>
+                  <li><a href="reg.html" class="down">регистрация</a>
+                  <li><a href="#" class="down">разработчики</a>
+                    <ul class="submenu">
+                        <li><a href="#">имя</a></li>
+                        <li><a href="#">имя</a></li>
+
+                    </ul>                   
+                  </li>
+              </nav>
+
+
+      </header>
+    </div>
+
+  </div>
+  <h2>главная</h2>
+  <a> fff</a>
+  <nav class="feed">
+    Example №1
+    <br>
+    <br>
+    <img src="https://mir24.tv/uploaded/images/2017/December/dc976ec848368fe8ca7f5212316fc7f438c802d421b410d6ade1da7d6fa41ace.jpg" alt="" width="500">
+  </nav>
+  <br>
+  <nav class="feed">
+    Example №2
+    <br>
+    <br>
+    <img src="http://www.sncmedia.ru/upload/iblock/7c7/7c702493e67c598acdd1e57ee7a34090_w877_h500_crp.png" alt="" width="500">
+  </nav>
+  <nav class="feed">
+    Example №3
+    <br>
+    <br>
+    <img src="https://cdn1.img.sputnik-georgia.com/images/23400/45/234004562.jpg" alt="" width="500">
+  </nav>
+</body>
+</html>

@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    /* background: linear-gradient(45deg, rgba(238, 207, 186, 0.397), rgba(197, 221, 232, 0.363)); */
+    background: rgb(19, 19, 19);
+  }
+  
+  h1{
+    cursor: help;
+    margin: 0;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    border-bottom: 10px;
+  }
+  
+   a{
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  /*
+  nav{
+    margin-top: 20px;
+  }
+  
+  ul{
+    list-style: none;
+  }
+  
+  ul>li{
+    display: inline-block;
+  }
+  
+   ul li a{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    border: #fff 1px solid;
+    padding: 15px;
+    border-radius: 30px;
+    transition: all 0.5s;
+  }
+  
+   ul li a:hover{
+    background-color: #fff;
+    color: #000;
+  }  */
+  
+  
+  .container{
+    background-color: rgb(0, 0, 0);
+  }
+  
+  .top-header{
+    background: linear-gradient(45deg, rgba(238, 207, 186, 0.397), rgba(197, 221, 232, 0.363));
+    min-height: 750px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
+  .header_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .info{
+    margin-top: 18em;
+    text-align: center;
+  }
+  
+  .info p{
+    font-size: 3em;
+  }
+  
+  .button{
+    border:black;
+    display: inline-block;
+    margin-top: 1em;
+    color: #fff;
+    background-color: rgb(39, 39, 39);
+    font-size: 1.1em;
+    font-weight: 700;
+    padding: 0.6em 2em;
+    border-radius: 20px;
+  }
+  
+  .button:hover{
+    color: black;
+    transition: 1s;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .wrapper{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 5em;
+  }
+  
+  h2{
+    margin-top: 30px;
+    font-size: 46px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+  }
+  .portfolio{
+    margin-top: 30px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* border: 1px solid #fff; */
+  }
+  
+  .portfolio_item{
+    width: 300px;
+    /* border: 1px solid rgb(78, 78, 78); */
+    margin-bottom: 30px;
+    border-radius: 10px;
+    background-color: rgb(26, 26, 26);
+    overflow: hidden;
+  }
+  
+  .portfolio_item:hover{
+    width: 300px;
+    /* border: 1px solid rgb(78, 78, 78); */
+    margin-bottom: 30px;
+    border-radius: 10px;
+    background-color: rgb(61, 61, 61);
+    overflow: hidden;
+    transition: all 0.5s;
+  }
+  
+  .portfolio_item img{
+    width: 300px;
+  }
+  
+  .portfolio_item span{
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .portfolio_item a{
+    color: rgb(196, 196, 196);
+    font-weight: 600;
+  }
+  
+  .wrapper ul li{
+    margin-top: 20px;
+    font-size: 30px;
+  }
+  
+  .wrapper ul li i{
+    margin-right: 20px; 
+  }
+  .conteiner{
+      width: 1024px;
+      margin: 0 auto;
+      border-radius: 10px; 
+    }
+  
+  .image{
+    height: 250px;
+    width: 100%;
+    background-image:url(../BTKteam/btkteam.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .map{
+    margin-left: 30%; /* Отступ слева */
+    margin-right: 30%; /* Отступ справа */
+  }
+  .text{
+    font-family: Trattatello, fantasy;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 40px;
+    width: 80%;
+    color: rgb(139, 113, 113);
+    background-color: rgba(255, 255, 255, 0.137);
+    border-radius: 10px;
+  }
+  
+  
+  @import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Libre+Baskerville');
+  /* body {
+    margin: 0;
+    background-image: url(https://html5book.ru/wp-content/uploads/2017/03/dulcineia-dias-195000.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+  } */
+  /* body:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(45deg, rgba(0,0,0,0), rgba(255,255,255,.8));
+  } */
+  nav {
+    text-align: center;
+    background-color: white;
+     
+  
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  nav a {
+    text-decoration: none;
+    display: block;
+    color:rgb(0, 0, 0);
+  }
+  .topmenu > li {
+    display: inline-block;
+    position: relative;
+  }
+  .topmenu > li > a {
+    position: relative;
+    padding: 10px 15px;
+    font-size: 0.8em;
+    line-height: 1;
+    letter-spacing: 3px;
+  }
+  
+  /* .topmenu > li > a:before {   
+    content: "";
+    position: absolute;
+    z-index: 5;
+    left: 50%;
+    top: 100%;
+    width: 10px;
+    height: 10px;
+    background: rgb(0, 0, 0);
+    border-radius: 50%;
+    transform: translate(-50%, 20px);
+    opacity: 0;
+    transition: .3s; 
+  }*/
+  .topmenu li:hover a:before {
+    transform: translate(-50%, 0);
+    opacity: 1;
+  }
+  .submenu {                
+    position: absolute;
+    z-index: 4;
+    left: 50%;
+    top: 100%;
+    width: 150px;
+    padding: 15px 0 15px;
+    margin-top: 0px;
+    background: rgb(211, 211, 211);
+    border-radius: 5px;
+    box-shadow: 0 0 30px rgb(0, 0, 0);
+    box-sizing: border-box;
+    visibility: hidden;
+    opacity: 0;
+    transform: translate(-50%, 20px);
+    transition: .3s;
+  }
+  .topmenu > li:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+  .submenu a {
+    
+    font-size: 10px;
+    letter-spacing: 1px;
+    padding: 5px 10px;
+    transition: .3s linear;
+  }
+  .submenu a:hover {background: #ffffff;}
+  
+  @media(min-width: 1024px)
+  {
+    .conteiner{
+      width: 1024px;
+      margin: 0 auto;
+      border-radius: 10px; 
+    }
+  }
+  @media(max-width: 1024px)
+  {
+    .conteiner{
+      width: 70%;
+      margin: 0 auto;
+      border-radius: 10px; 
+    }
+  }
+
+  .feed{
+    margin: 0 auto;
+    width: 500px;
+    background-color: white;
+    color: black;
+    border-radius: 7px;
+    margin-top: 10px;
+    padding: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 500px;
+  }
+  form{
+    border-radius: 3px;
+    margin: 0 auto;
+    background: rgba(245, 245, 220, 0.192);
+    width: 450px;
+    height: 500px;
+    padding: 20px;
+  }
+  .group{
+    margin: 7px;
+    padding: 5px;
+  }
+  label{
+    padding-left: 10px;
+    text-transform: uppercase; 
+  }
+  input{
+    margin-top: 10px;
+    height: 20px;
+    width: 400px;
+    border-radius: 10px;
+    border: none;
+  }
+  .submit{
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+  }
