@@ -110,6 +110,12 @@
     text-transform: uppercase;
     color: rgb(255, 255, 255);
   }
+  h3{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+  }
   .portfolio{
     margin-top: 30px;
     padding-top: 30px;
@@ -184,14 +190,11 @@
 
   /* э */
   .text{
-    font-family: Trattatello, fantasy;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0 auto;
-    margin-top: 30px;
-    padding: 40px;
-    width: 80%;
-    color: rgb(139, 113, 113);
-    background-color: rgba(255, 255, 255, 0.137);
-    border-radius: 10px;
+    margin-top: 10px;;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
   }
   
   
@@ -346,4 +349,20 @@
     width: 100px;
     text-align: center;
     margin: 0 auto;
+  }
+  .audios{
+    margin: 0 auto;
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 7px;
+    margin-top: 10px;
+    padding: 30px;
+    max-width: 500px;
+    font-weight: 100;
+  }
+  audio{
+    width: 500px;
+    height: 30px;
+    color: white;
   }
